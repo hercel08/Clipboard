@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    line-height: 1.3rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url(images/bg-header-mobile.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header img {
+    margin-bottom: 50px;
+}
+header h1 {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+    line-height: 2.325rem;
+}
+header p{
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 13px;
+    margin-bottom: 30px;
+}
+header button {
+    margin: 10px auto;
+    width: 300px;
+    height: 50px;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+header button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+header button.iOS {
+    box-shadow: inset 0px -3px 2px hsl(171, 96%, 33%);
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+header button.Mac {
+    box-shadow: inset 0px -3px 2px hsl(233, 41%, 53%);
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+section h1 {
+    color: hsl(210, 10%, 33%);
+    line-height: 2rem;
+    font-weight: 600;
+    margin: auto 20px;
+}
+section p {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 13px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+section img {
+    width: 300px;
+    margin: 50px 0;
+}
+.access {
+    margin-top: 100px;
+}
+.intro-workflow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+}
+.intro-workflow h1 {
+    font-size: 1.325rem;
+    color: hsl(210, 10%, 33%);
+    width: 200px;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.intro-workflow p {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1rem;
+    width: 300px;
+}
+.tools-workflow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+    margin-bottom: 100px;
+}
+.tools-workflow img {
+    margin: 40px 0;
+}
+.tools-workflow h2 {
+    font-size: 1.325rem;
+    line-height: 2.325rem;
+    color: hsl(210, 10%, 33%);
+}
+.tools-workflow p {
+    color: hsl(201, 11%, 66%);
+}
+.brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.brands img {
+    margin: 40px 0;
+}
+.clipboard {
+    padding: 0 22px;
+}
+.clipboard-button {
+    margin: 30px 0;
+    margin-bottom: 100px;
+}
+.clipboard-button button {
+    margin: 10px auto;
+    width: 300px;
+    height: 50px;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+    font-weight: 600
+}
+.clipboard-button button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.clipboard-button button.D-iOS {
+    box-shadow: inset 0px -3px 2px hsl(171, 96%, 33%);
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+.clipboard-button button.D-Mac {
+    box-shadow: inset 0px -3px 2px hsl(233, 41%, 53%);
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(201, 11%, 66%, 10%);
+}
+footer img {
+    margin-top: 50px;
+    width: 70px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+nav .inq:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+nav .inq {
+    margin: 10px auto;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#social-icons {
+    margin: 0 20px;
+}
+#social-icons:hover {
+    filter: invert(59%) sepia(79%) saturate(415%) hue-rotate(122deg) brightness(89%) contrast(85%);
+    transition: 200ms ease-in-out;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    header {
+        background-image: url(images/bg-header-desktop.png);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header h1 {
+        font-size: 2.165rem;
+    }
+    header p {
+        width: 600px;
+    }
+    header button {
+        width: 180px;
+    }
+    section p {
+        width: 650px;
+    }
+    section img.computer {
+        width: max-content;
+        align-self: self-start;
+        margin-left: -50px;
+    }
+    .track-features {
+        margin-top: -500px;
+        margin-left: 600px;
+        text-align: start;
+    }
+    .track-features h1 {
+        margin-left: 1px;
+    }
+    .track-features p {
+        margin-left: -10px;
+        width: 380px;
+    }
+    section.access {
+        margin-top: 200px;
+    }
+    section img {
+        width: max-content;
+    }
+    .intro-workflow h1 {
+        width: 100vw;
+        font-size: 1.625rem;
+    }
+    .intro-workflow p {
+        width: 100vw;
+    }
+    .tools-workflow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 100px;
+    }
+    .tools {
+        width: 350px;
+    }
+    #first-tool {
+        margin-top: 10px;
+    }
+    .brands {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+    .clipboard-button button {
+        width: 200px;
+        margin-top: -20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        padding: 0 100px;
+    }
+    footer img {
+        margin-top: 5px;
+    }
+    footer nav {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+    }
+    footer .socials {
+        margin-top: 60px;
+    }
+}
+    
